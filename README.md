@@ -1,0 +1,27 @@
+<p align="center">
+  <img src="docs/logo.png" alt="CheatBreaker" width="160">
+</p>
+
+<h1 align="center">OpenCheatBreaker</h1>
+
+## Build and run
+
+Requires JDK 25 and network access to Maven Central (test dependencies). The game's natives and assets are copied from an installed CheatBreaker launcher (`%APPDATA%/CheatBreaker/downloads`, with 1.7.10 downloaded); run the launcher once, or pass `-Pcb.launcherDir=<launcher data dir>`.
+
+```
+./gradlew jar          # output is in build/libs/
+./gradlew test
+./gradlew releaseZip   
+# standalone version package: build/distributions/OpenCheatBreaker-1.7.10.zip
+./gradlew runGame      # copies the natives and assets into run/ and starts the game with an offline test account (game data in run/mc/)
+```
+
+IntelliJ IDEA: `File > Open` and select this directory. The project settings (`.idea/`) and the **OpenCheatBreaker** run configuration (`.run/OpenCheatBreaker.run.xml`) are included in the repository; set the Gradle JVM to JDK 25. The working directory is `run/` and game data lives in `run/mc/`.
+
+The client never talks to the CheatBreaker servers: `CheatBreaker.isOfflineMode()` always returns true, the player-assets websocket is replaced by an offline stub (`OfflineWebsocketNetHandler`), the tamper reporter and heartbeat are gone, and the "not connected to the player assets server" login gate no longer applies. Singleplayer and multiplayer work right away, and servers can be joined directly (online-mode servers still need a real session token).
+
+Every cosmetic bundled in `libs/cosmetics-master.jar` — capes, dragon wings and hats — plus every emote is unlocked locally. `LocalCosmetics` scans `assets/minecraft/client/cosmetics/` on the classpath, registers the whole catalogue in `CosmeticsManager`, and persists the equipped set (`type:name`) in `config/cheatbreaker-client-1.7.10-<branch>/local_cosmetics.json`, so the outfit survives restarts.
+
+Game sounds use Paulscode's pure Java Sound backend (`LibraryJavaSound`) instead of OpenAL, so the OpenAL native libraries are not needed (LWJGL's OpenAL could not be loaded from a path with non-ASCII characters, which left the game silent). Voice chat is implemented in Java as well, and no other native code is bundled (no JNA, oshi, junixsocket or OpenAL; the Mumble Link mod and the BIOS check were removed with them). Only the LWJGL and JInput natives for display and input remain in `run/natives`.
+
+[![QQ Group 1078719379](https://img.shields.io/badge/QQ%20Group-1078719379-12B7F5?logo=tencentqq&logoColor=white)](https://qm.qq.com/q/OnrCkjX7Y4)

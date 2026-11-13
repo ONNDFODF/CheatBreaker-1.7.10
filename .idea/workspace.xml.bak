@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c3bef394-cf4a-44bb-8a3f-6f7f179cfe91" name="更改" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="2466" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="OpenCheatBreaker" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3Lcy42kDLGYopXATs1MheUnCiFS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.OpenCheatBreaker (Gradle).executor": "Run",
+    "Gradle.OpenCheatBreaker-1.7.10 [:Start.main()].executor": "Debug",
+    "Gradle.OpenCheatBreaker-1.7.10 [jar # output is in build/libs/].executor": "Run",
+    "Gradle.OpenCheatBreaker-1.7.10 [prepareGameRun].executor": "Run",
+    "Gradle.OpenCheatBreaker-1.7.10 [releaseZip  standalone version package: build/distributions/OpenCheatBreaker-1.7.10.zip].executor": "Debug",
+    "Gradle.OpenCheatBreaker-1.7.10 [releaseZip # standalone version package: build/distributions/OpenCheatBreaker-1.7.10.zip].executor": "Run",
+    "Gradle.OpenCheatBreaker-1.7.10 [runGame # copies the natives and assets into run/ and starts the game with an offline test account (game data in run/mc/)].executor": "Run",
+    "Gradle.OpenCheatBreaker-1.7.10 [test].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/OpenCheatBreaker-1.7.10",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Gradle.OpenCheatBreaker-1.7.10 [releaseZip  standalone version package: build/distributions/OpenCheatBreaker-1.7.10.zip]">
+    <configuration name="OpenCheatBreaker-1.7.10 [jar # output is in build/libs/]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="jar" />
+            <option value="#" />
+            <option value="output" />
+            <option value="is" />
+            <option value="in" />
+            <option value="build/libs/" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <GradleProfilingDisabled>false</GradleProfilingDisabled>
+      <GradleCoverageDisabled>false</GradleCoverageDisabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="OpenCheatBreaker-1.7.10 [releaseZip  standalone version package: build/distributions/OpenCheatBreaker-1.7.10.zip]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="releaseZip" />
+            <option value="#" />
+            <option value="standalone" />
+            <option value="version" />
+            <option value="package:" />
+            <option value="build/distributions/OpenCheatBreaker-1.7.10.zip" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <GradleProfilingDisabled>false</GradleProfilingDisabled>
+      <GradleCoverageDisabled>false</GradleCoverageDisabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="OpenCheatBreaker-1.7.10 [runGame # copies the natives and assets into run/ and starts the game with an offline test account (game data in run/mc/)]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="runGame" />
+            <option value="#" />
+            <option value="copies" />
+            <option value="the" />
+            <option value="natives" />
+            <option value="and" />
+            <option value="assets" />
+            <option value="into" />
+            <option value="run/" />
+            <option value="and" />
+            <option value="starts" />
+            <option value="the" />
+            <option value="game" />
+            <option value="with" />
+            <option value="an" />
+            <option value="offline" />
+            <option value="test" />
+            <option value="account" />
+            <option value="(game" />
+            <option value="data" />
+            <option value="in" />
+            <option value="run/mc/)" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <GradleProfilingDisabled>false</GradleProfilingDisabled>
+      <GradleCoverageDisabled>false</GradleCoverageDisabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="OpenCheatBreaker-1.7.10 [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <GradleProfilingDisabled>false</GradleProfilingDisabled>
+      <GradleCoverageDisabled>false</GradleCoverageDisabled>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Gradle.OpenCheatBreaker (Gradle)" />
+      <item itemvalue="Gradle.OpenCheatBreaker-1.7.10 [jar # output is in build/libs/]" />
+      <item itemvalue="Gradle.OpenCheatBreaker-1.7.10 [releaseZip  standalone version package: build/distributions/OpenCheatBreaker-1.7.10.zip]" />
+      <item itemvalue="Gradle.OpenCheatBreaker-1.7.10 [runGame # copies the natives and assets into run/ and starts the game with an offline test account (game data in run/mc/)]" />
+      <item itemvalue="Gradle.OpenCheatBreaker-1.7.10 [test]" />
+      <item itemvalue="应用程序.OpenCheatBreaker" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.OpenCheatBreaker-1.7.10 [releaseZip  standalone version package: build/distributions/OpenCheatBreaker-1.7.10.zip]" />
+        <item itemvalue="Gradle.OpenCheatBreaker-1.7.10 [jar # output is in build/libs/]" />
+        <item itemvalue="Gradle.OpenCheatBreaker-1.7.10 [test]" />
+        <item itemvalue="Gradle.OpenCheatBreaker-1.7.10 [runGame # copies the natives and assets into run/ and starts the game with an offline test account (game data in run/mc/)]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.26222.65" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-IU-261.26222.65" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="c3bef394-cf4a-44bb-8a3f-6f7f179cfe91" name="更改" comment="" />
+      <created>1793767455735</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1793767455735</updated>
+      <workItem from="1793767457006" duration="1250000" />
+      <workItem from="1793799704245" duration="361000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
